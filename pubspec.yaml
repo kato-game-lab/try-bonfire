@@ -1,0 +1,53 @@
+name: try_flame
+description: A new Flutter project.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.18.4 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  bonfire: ^2.11.8
+  fast_noise: ^1.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^2.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/images/player/
+    - assets/images/enemy/
+    - assets/images/npc/
+    - assets/images/tile/
+    - assets/images/tile_random/
+    - assets/images/tiled/
+    - assets/images/tiled/top_down/
+    - assets/images/tiled/tileset/
+    - assets/images/itens/
+    - assets/images/lpc/body/
+    - assets/images/lpc/feet/
+    - assets/images/lpc/hair/
+    - assets/images/lpc/leg/
+    - assets/images/lpc/torco/
+    - assets/images/lpc/head/
+    - assets/images/lpc/gloves/
